@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "p2p tic tac toe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Moustafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "p5": "^0.8.0",
+    "peer": "^0.2.10",
+    "socket.io": "^2.2.0"
+  }
+}
